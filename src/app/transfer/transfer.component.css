@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    padding: 50px 100px;
+    margin-top: 5%;
+    background-image: url('../../assets/Images/formbg.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.form-group{
+    padding-left: 30%;
+    padding-right: 30%;
+}

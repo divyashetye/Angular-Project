@@ -1,0 +1,24 @@
+<mat-toolbar color="primary" class="toolbar">
+
+  <div class="left">
+    <span><mat-icon>eco</mat-icon></span>
+    <span>Access Bank</span>
+  </div>
+
+  <div *ngIf="!loggedIn()" class="center">
+    <a mat-button routerLink="/home">Home</a>
+    <a mat-button routerLink="/register">Create Account</a>
+    <a mat-raised-button color="accent" routerLink="/login">Login</a>
+  </div>
+
+  <div *ngIf="loggedIn()" class="center">
+    <a mat-button routerLink="/home">Home</a>
+    <a mat-button routerLink="/details">View Details</a>
+    <a mat-button routerLink="/deposit">Deposit Form</a>
+    <a mat-button routerLink="/withdraw">Withdrawal Form</a>
+    <a mat-raised-button color="accent" (click)="loggedOut()">Logout</a>
+  </div>
+
+</mat-toolbar>
+
+<router-outlet></router-outlet>

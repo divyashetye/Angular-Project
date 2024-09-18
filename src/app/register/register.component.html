@@ -1,0 +1,88 @@
+<div class="container mt-5">
+    <h1>Create an Account?</h1>
+<form #accform="ngForm" (ngSubmit)="createaccount(accform)" (ngSubmit)="onSubmit()">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="fn">First Name:</label>
+    <input type="text" id="fn" name="firstname" class="form-control" [(ngModel)]="firstname">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="ln">Last Name:</label>
+    <input type="text" id="ln" name="lastname" class="form-control" [(ngModel)]="lastname">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="em">Email:</label>
+    <input type="email" id="em" name="email" class="form-control" [(ngModel)]="email">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="pn">Phone Number:</label>
+    <input type="tel" id="pn" name="phoneno" class="form-control" [(ngModel)]="phoneno">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="dob">Date Of Birth:</label>
+    <input type="date" id="dob" name="dob" class="form-control" [(ngModel)]="dob">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="ad">Address:</label>
+    <input type="text" id="ad" name="address" class="form-control" [(ngModel)]="address">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="c">City:</label>
+    <input type="text" id="c" name="city" class="form-control" [(ngModel)]="city">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="form-group">
+    <label for="st">State:</label>
+    <input type="text" id="st" name="state" class="form-control" [(ngModel)]="state">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group"> 
+        <label>Set Username:</label>
+            <input type="text" class="form-control" name="username" [(ngModel)]="username">
+        </div>
+
+    <div class="form-group">
+        <label>Set Password:</label>
+            <input type="password" class="form-control" name="password" [(ngModel)]="password">
+        </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+
+</div>
+
+
+    
+
+    

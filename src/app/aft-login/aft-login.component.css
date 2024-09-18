@@ -1,0 +1,30 @@
+a{
+    margin-right: 50px; 
+    font-size: 17px;  
+}
+
+button{
+    margin-right: 50px;  
+    font-size: 17px;   
+}
+
+body{
+    background-image: url('../../assets/Images/c2.avif');
+    background-size: cover;
+}
+
+h1{
+    padding-top: 15%;
+    margin-left: 12%;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#para{
+   margin-left: 10%; 
+   color: whitesmoke;
+   font-size: 30px;
+}

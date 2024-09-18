@@ -1,0 +1,19 @@
+<div class="container">
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th>Account No.</th>
+        <th>Credit</th>
+        <th>Debit</th>
+    </tr>
+    </thead>
+
+    <tbody *ngFor="let a of acc">
+        <tr>
+            <td>{{a.id}}</td>
+            <td>{{a.deposit}}</td>
+            <td>{{a.withdraw}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

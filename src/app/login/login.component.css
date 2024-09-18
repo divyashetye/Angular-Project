@@ -1,0 +1,21 @@
+.card{
+    border:2px solid black;
+}
+
+.card-body{
+    background-color: rgb(195, 192, 185);
+}
+label{
+    margin-top: 20px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+span
+{
+    background-color: rgb(240, 240, 233);
+    color: red;
+}
